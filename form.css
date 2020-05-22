@@ -1,7 +1,13 @@
 body{
     background: url(./convenient.png) no-repeat center fixed;
-    background-size: cover;    
+    background-size: cover;   
 } 
+.bg-image{
+    background-image : url(./convenient.png);
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+
+}
 .container{
     margin: 0 auto;
 }
